@@ -1,34 +1,42 @@
 export const TECHNOLOGIES = {
-    Astro: {
-      name: 'Astro',
-      icon: 'https://img.icons8.com/color/48/000000/astro.png'
-    },
-    React: {
-      name: 'React',
-      icon: 'https://img.icons8.com/color/48/000000/react.png'
-    },
-    HTML: {
-      name: 'HTML',
-      icon: 'https://img.icons8.com/color/48/000000/html-5--v1.png'
-    },
-    CSS: {
-      name: 'CSS',
-      icon: 'https://img.icons8.com/color/48/000000/css3.png'
-    },
-    TailwindCSS: {
-      name: 'TailwindCSS',
-      icon: 'https://img.icons8.com/color/48/000000/tailwindcss.png'
-    },
-    Typescript: {
-      name: 'Typescript',
-      icon: 'https://img.icons8.com/color/48/000000/typescript.png'
-    },
-    Javascript: {
-      name: 'Javascript',
-      icon: 'https://img.icons8.com/color/48/000000/javascript.png'
-    },
-    Wordpress: {
-      name: 'Wordpress',
-      icon: 'https://img.icons8.com/color/48/000000/wordpress.png'
-    }
-  };
+  Astro: {
+    name: 'Astro',
+    icon: 'icons/skill-icons--astro.svg'
+  },
+  React: {
+    name: 'React',
+    icon: 'icons/skill-icons--react-light.svg'
+  },
+  HTML: {
+    name: 'HTML',
+    icon: 'icons/skill-icons--html.svg'
+  },
+  CSS: {
+    name: 'CSS',
+    icon: 'icons/skill-icons--css.svg'
+  },
+  TailwindCSS: {
+    name: 'TailwindCSS',
+    icon: 'icons/skill-icons--tailwindcss-dark.svg'
+  },
+  Typescript: {
+    name: 'Typescript',
+    icon: 'icons/skill-icons--typescript.svg'
+  },
+  Javascript: {
+    name: 'Javascript',
+    icon: 'icons/skill-icons--javascript.svg'
+  },
+  Wordpress: {
+    name: 'Wordpress',
+    icon: 'icons/skill-icons--wordpress.svg'
+  },
+  Vite: {
+    name: 'Vite',
+    icon: 'icons/skill-icons--vite-light.svg'
+  },
+  Boostrap: {
+    name: 'Boostrap',
+    icon: 'icons/skill-icons--bootstrap.svg'
+  }
+};

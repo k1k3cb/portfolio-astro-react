@@ -6,4 +6,6 @@ export const TAGS = {
   React_Query: 'React_Query',
   Zustand: 'Zustand',
   SpinKit : 'Tobias Ahlin SpinKit',
+  MUI: 'Material UI',
+  Axios: 'Axios',
 };

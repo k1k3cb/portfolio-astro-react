@@ -37,7 +37,7 @@ const Header = () => {
   }, [theme]);
 
   return (
-    <header className='sticky top-0 z-50 w-full py-3 backdrop-blur-lg border-b border-neutral-700/80  bg-background/80 dark:bg-slate-500'>
+    <header className='sticky top-0 z-50 w-full py-3 bg-background backdrop-blur-lg border-b border-neutral-700/80  md:bg-background/80 dark:bg-slate-500 mb-10'>
       <nav className='container flex items-center justify-between w-[92%] px-10 lg:justify-center'>
         <a>
           <img
@@ -104,7 +104,7 @@ const Header = () => {
         </div>
 
         {mobileDrawerOpen && (
-          <ul className='fixed right-0 z-20 p-10 bg-white w-full top-20 flex flex-col justify-center items-center first-letter:border-b border-neutral-700/80 '>
+          <ul className='fixed right-0 z-20 p-10 bg-background w-full top-20 flex flex-col justify-center items-center first-letter:border-b border-neutral-700/80 dark:bg-slate-500'>
             {NAV_ITEMS.map((item: NavItem) => (
               <li
                 className='hover:bg-slate-300 rounded hover:text-teal-600 py-4 px-4 trasnsition-all duration-300 md:py-2'
