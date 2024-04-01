@@ -1,0 +1,31 @@
+---
+import '@/styles/globals.css';
+import '@fontsource-variable/onest';
+import Header from '../components/Header';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description = 'A comunity of musi producers and ...' } =
+  Astro.props;
+---
+
+<!doctype html>
+<html lang='en' >
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='description' content={description} />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name='generator' content={Astro.generator} />
+
+    <title>{title}</title>
+  </head>
+  <body class='bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen'>
+    <Header client:only='react' />
+    <slot />
+  </body>
+</html>
