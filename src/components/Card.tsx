@@ -3,7 +3,7 @@ import { v4 } from 'uuid';
 
 const Card = ({ project }: { project: Project }) => {
   return (
-    <div className='flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md max-w-[35rem] md:-h-[18rem]  md:h-50 flex-col md:flex-row md:min-w-[28rem]   '>
+    <div className='flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full h-full max-w-[35rem]    md:flex-row md:min-w-[28rem]   '>
       <div className='md:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-b-none  md:rounded-l-lg md:rounded-r-none bg-clip-border rounded-xl shrink-0 relative'>
         <img
           src={project.image}
