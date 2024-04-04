@@ -5,10 +5,59 @@ import { TECHNOLOGIES } from './technologies';
 export const PROJECTS = [
   {
     id: v4(),
+    title: 'Video Games Api',
+    description:
+      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
+    image:
+      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
+    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon, TECHNOLOGIES.TailwindCSS.icon],
+    github_url: 'https://github.com/k1k3cb/video-games-api',
+    live: 'https://video-games-api-79xy.onrender.com/',
+    tags: [ TAGS.React_Router_Dom]
+  },
+  {
+    id: v4(),
+    title: 'Countries Api',
+    description:
+      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
+    image:
+      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
+    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon],
+    github_url: 'https://github.com/k1k3cb/countries-api',
+    live: 'https://countries-api-tmr2.onrender.com/',
+    tags: [TAGS.Styled_Components, TAGS.React_Router_Dom]
+  },
+  {
+    id: v4(),
+    title: 'Space Tourism',
+    description:
+      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
+    image:
+      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
+    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon],
+    github_url: 'https://github.com/k1k3cb/space-tourism-website-react',
+    live: 'https://space-tourism-website-react.onrender.com/',
+    tags: [TAGS.Styled_Components, TAGS.React_Router_Dom]
+  },
+  {
+    id: v4(),
+    title: 'Planet React',
+    description:
+      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
+    image:
+      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
+    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon],
+    github_url: 'https://github.com/k1k3cb/planets-react',
+    live: 'https://planets-react-z32g.onrender.com/',
+    tags: [TAGS.Styled_Components, TAGS.React_Router_Dom]
+  },
+  {
+    id: v4(),
     title: 'Cotizador de criptomonedas',
     description:
       'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
-    image: 'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
+    image:
+      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
     technologies: [TECHNOLOGIES.React.icon, TECHNOLOGIES.TailwindCSS.icon],
     github_url: 'https://github.com/k1k3cb/cotizador-criptomonedas',
     live: 'https://cotizador-criptomonedas.onrender.com/',
@@ -19,12 +68,9 @@ export const PROJECTS = [
     title: 'theMovie',
     description:
       'Este proyecto consiste en el desarrollo de un buscador de películas por distintas categorías.Cada película tiene la opción de acceder a su ficha y ver información más completa.',
-    image: 'https://raw.githubusercontent.com/k1k3cb/theMovie-React-Bootstrap/main/public/sceenshoot_home.jpg',
-    technologies: [
-      
-      TECHNOLOGIES.Boostrap.icon,
-      TECHNOLOGIES.React.icon
-    ],
+    image:
+      'https://raw.githubusercontent.com/k1k3cb/theMovie-React-Bootstrap/main/public/sceenshoot_home.jpg',
+    technologies: [TECHNOLOGIES.Boostrap.icon, TECHNOLOGIES.React.icon],
     github_url: 'https://github.com/k1k3cb/theMovie-React-Bootstrap',
     live: 'https://themovie-react-bootstrap.onrender.com/',
     tags: [TAGS.Axios, TAGS.React_Router_Dom]
@@ -32,9 +78,9 @@ export const PROJECTS = [
   {
     id: v4(),
     title: 'Social Network MUI',
-    description:
-      'Web estilo red social utilizando React y Material UI.',
-    image: 'https://raw.githubusercontent.com/k1k3cb/Social-Network-MUI/main/public/screenShoots/img1.png',
+    description: 'Web estilo red social utilizando React y Material UI.',
+    image:
+      'https://raw.githubusercontent.com/k1k3cb/Social-Network-MUI/main/public/screenShoots/img1.png',
     technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon],
     github_url: 'https://github.com/k1k3cb/Social-Network-MUI',
     live: 'https://social-network-mui.onrender.com/',
@@ -44,7 +90,8 @@ export const PROJECTS = [
     id: v4(),
     title: 'Rock-Paper-Scissors game',
     description: 'Juego del "piedra papel tijera".',
-    image: 'https://github.com/k1k3cb/Rock-Paper-Scissors-game/blob/main/src/assets/project_captures/home-game.jpg?raw=true',
+    image:
+      'https://github.com/k1k3cb/Rock-Paper-Scissors-game/blob/main/src/assets/project_captures/home-game.jpg?raw=true',
     technologies: [
       TECHNOLOGIES.HTML.icon,
       TECHNOLOGIES.CSS.icon,
@@ -59,7 +106,8 @@ export const PROJECTS = [
     title: 'Password Generator',
     description:
       'Este proyecto consiste en el desarrollo de una aplicación web para generar contraseñas a partir de los inputs marcados (mayúsculas, minúsculas, números y símbolos).',
-    image: 'https://raw.githubusercontent.com/k1k3cb/password-generator/main/src/assets/images/project_captures/captura-password-generator.jpg',
+    image:
+      'https://raw.githubusercontent.com/k1k3cb/password-generator/main/src/assets/images/project_captures/captura-password-generator.jpg',
     technologies: [
       TECHNOLOGIES.HTML.icon,
       TECHNOLOGIES.CSS.icon,

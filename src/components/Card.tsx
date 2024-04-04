@@ -3,25 +3,25 @@ import { v4 } from 'uuid';
 
 const Card = ({ project }: { project: Project }) => {
   return (
-    <div className='flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md max-w-[40rem] max-h-[18rem] h-50 flex-row'>
-      <div className='w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0'>
+    <div className='flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md max-w-[35rem] md:-h-[18rem]  md:h-50 flex-col md:flex-row md:min-w-[28rem]   '>
+      <div className='md:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-b-none  md:rounded-l-lg md:rounded-r-none bg-clip-border rounded-xl shrink-0 relative'>
         <img
           src={project.image}
           alt={`${project.title} Image`}
-          className='object-cover w-full h-full'
+          className='object-cover w-full  h-40 md:h-full '
         />
       </div>
-      <div className='p-2  '>
-        <div className=' flex p-2  gap-3  '>
+      <div className='p-2 w-full '>
+        <div className=' flex py-2 gap-3  '>
           {project.technologies.map(technology => (
             <img src={technology} alt='' width={30} key={v4()} />
           ))}
         </div>
 
-        <h4 className='block mb-2  text-xl  font-semibold leading-snug text-blue-gray- h-12'>
+        <h4 className=' mb-2  text-xl  font-semibold leading-snug text-blue-gray- h-12'>
           {project.title}
         </h4>
-        <p className='block mb-2 text-sm font-sans leading-relaxed text-gray-700 h-28 overflow-hidden'>
+        <p className='block mb-2 text-sm font-sans leading-relaxed text-gray-700 md:h-28 overflow-hidden'>
           {project.description}
         </p>
         <div className='flex gap-2'>
