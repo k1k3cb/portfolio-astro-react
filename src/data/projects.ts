@@ -10,10 +10,14 @@ export const PROJECTS = [
       'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
     image:
       'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
-    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon, TECHNOLOGIES.TailwindCSS.icon],
+    technologies: [
+      TECHNOLOGIES.Vite.icon,
+      TECHNOLOGIES.React.icon,
+      TECHNOLOGIES.TailwindCSS.icon
+    ],
     github_url: 'https://github.com/k1k3cb/video-games-api',
     live: 'https://video-games-api-79xy.onrender.com/',
-    tags: [ TAGS.React_Router_Dom]
+    tags: [TAGS.React_Router_Dom]
   },
   {
     id: v4(),
@@ -70,7 +74,7 @@ export const PROJECTS = [
       'Este proyecto consiste en el desarrollo de un buscador de películas por distintas categorías.Cada película tiene la opción de acceder a su ficha y ver información más completa.',
     image:
       'https://raw.githubusercontent.com/k1k3cb/theMovie-React-Bootstrap/main/public/sceenshoot_home.jpg',
-    technologies: [TECHNOLOGIES.Boostrap.icon, TECHNOLOGIES.React.icon],
+    technologies: [TECHNOLOGIES.React.icon, TECHNOLOGIES.Boostrap.icon],
     github_url: 'https://github.com/k1k3cb/theMovie-React-Bootstrap',
     live: 'https://themovie-react-bootstrap.onrender.com/',
     tags: [TAGS.Axios, TAGS.React_Router_Dom]
