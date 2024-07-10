@@ -9,12 +9,12 @@ interface Props {
   image?: string;
 }
 
-const { title, description = 'A comunity of musi producers and ...' } =
+const { title, description = 'Enrique Comesaña Dev Web' } =
   Astro.props;
 ---
 
 <!doctype html>
-<html lang='en' >
+<html lang='es' >
   <head>
     <meta charset='UTF-8' />
     <meta name='description' content={description} />
@@ -24,7 +24,7 @@ const { title, description = 'A comunity of musi producers and ...' } =
 
     <title>{title}</title>
   </head>
-  <body class='bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen'>
+  <body class='bg-gray-400 h-screen'>
     <Header client:only='react' />
     <slot  />
   </body>

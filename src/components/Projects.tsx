@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className='mb-10'>
       <h2 className='text-principal font-bold text-3xl my-8 mb-8 text-left underline '>
-        Projects
+        Proyectos
       </h2>
 
       {/* <p>Filtros</p>
