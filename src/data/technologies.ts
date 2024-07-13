@@ -39,4 +39,9 @@ export const TECHNOLOGIES = {
     name: 'Boostrap',
     icon: 'icons/skill-icons--bootstrap.svg'
   }
+  ,
+  PostgreSQL: {
+    name: 'PostgreSQL',
+    icon: 'icons/icon-postgresql.png'
+  }
 };

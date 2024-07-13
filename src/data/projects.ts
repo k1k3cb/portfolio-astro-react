@@ -7,9 +7,9 @@ export const PROJECTS = [
     id: v4(),
     title: 'Video Games Api',
     description:
-      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
+      'Desarrollo de una web donde consultar información sobre videojuegos, pudiendo seleccionar por plataforma o género.',
     image:
-      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
+      'https://raw.githubusercontent.com/k1k3cb/video-games-api/main/public/assets/images/img1.webp',
     technologies: [
       TECHNOLOGIES.Vite.icon,
       TECHNOLOGIES.React.icon,
@@ -21,35 +21,23 @@ export const PROJECTS = [
   },
   {
     id: v4(),
-    title: 'Countries Api',
+    title: 'Administrador de productos',
     description:
-      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
+      'Administrador de productos con el que poder añadir, editar y eliminar nuevos productos, además también puedes cambiar la disponibilidad de ellos.',
     image:
-      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
-    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon],
-    github_url: 'https://github.com/k1k3cb/countries-api',
-    live: 'https://countries-api-tmr2.onrender.com/',
-    tags: [TAGS.Styled_Components, TAGS.React_Router_Dom]
-  },
-  {
-    id: v4(),
-    title: 'Space Tourism',
-    description:
-      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
-    image:
-      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
-    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon],
-    github_url: 'https://github.com/k1k3cb/space-tourism-website-react',
-    live: 'https://space-tourism-website-react.onrender.com/',
-    tags: [TAGS.Styled_Components, TAGS.React_Router_Dom]
-  },
+      'https://raw.githubusercontent.com/k1k3cb/rest_apis_typescsript_frontend/main/public/administrador%20productos%2000.webp',
+    technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon,TECHNOLOGIES.Typescript.icon, TECHNOLOGIES.PostgreSQL.icon, TECHNOLOGIES.TailwindCSS.icon],
+    github_url: 'https://github.com/k1k3cb/rest_apis_typescsript_frontend',
+    live: 'https://rest-apis-typescsript-frontend-b8i4.vercel.app/',
+    tags: [TAGS.Sequelize, TAGS.React_Router_Dom, TAGS.Axios]
+  }, 
   {
     id: v4(),
     title: 'Planet React',
     description:
-      'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
+      'Web con la información y características de los planetas del sistema solar',
     image:
-      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
+      'https://raw.githubusercontent.com/k1k3cb/planets-react/main/public/assets/github/planet%2000.webp',
     technologies: [TECHNOLOGIES.Vite.icon, TECHNOLOGIES.React.icon],
     github_url: 'https://github.com/k1k3cb/planets-react',
     live: 'https://planets-react-z32g.onrender.com/',
@@ -61,11 +49,11 @@ export const PROJECTS = [
     description:
       'Desarrollo de una web donde consultar la cotización en vivo de las criptomonedas más usadas',
     image:
-      'https://github.com/k1k3cb/cotizador-criptomonedas/raw/main/public/screenShoot1.png',
-    technologies: [TECHNOLOGIES.React.icon, TECHNOLOGIES.TailwindCSS.icon],
-    github_url: 'https://github.com/k1k3cb/cotizador-criptomonedas',
-    live: 'https://cotizador-criptomonedas.onrender.com/',
-    tags: [TAGS.Styled_Components, TAGS.SpinKit]
+      'https://raw.githubusercontent.com/k1k3cb/cotizador-criptomonedas-react-ts/main/public/github/cotizador%2000.webp',
+    technologies: [TECHNOLOGIES.Vite.icon,TECHNOLOGIES.React.icon,TECHNOLOGIES.Typescript.icon, TECHNOLOGIES.TailwindCSS.icon],
+    github_url: 'https://github.com/k1k3cb/cotizador-criptomonedas-react-ts',
+    live: 'https://cotizador-criptomonedas-react-ts.pages.dev/',
+    tags: [TAGS.React_Router_Dom,TAGS.React_Hooks_Form,TAGS.Zustand,TAGS.Zod, TAGS.SpinKit]
   },
   {
     id: v4(),

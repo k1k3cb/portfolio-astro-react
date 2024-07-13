@@ -66,12 +66,14 @@
   }
 
   * {
-    
     @apply border-border transition-colors duration-100;
   }
   body {
     @apply bg-background  text-primary;
     font-family: 'Onest Variable', sans-serif;
-    
   }
 }
+
+/* html {
+  scroll-behavior: smooth;
+} */

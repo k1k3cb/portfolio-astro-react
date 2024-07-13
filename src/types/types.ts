@@ -2,7 +2,7 @@ export interface NavItem {
   id: string;
   title: string;
   label: string;
-  url: string;
+  href: string;
 }
 
 

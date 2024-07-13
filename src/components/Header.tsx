@@ -36,6 +36,19 @@ const Header = () => {
     }
   }, [theme]);
 
+  const handleSmoothScroll = (e: React.MouseEvent, href: string) => {
+    e.preventDefault();
+    const targetElement = document.querySelector(href);
+    const headerOffset = 100; // Ajuste por el sticky header
+    const elementPosition = targetElement?.getBoundingClientRect().top || 0;
+    const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <header className='sticky top-0 z-50 w-full py-3 bg-background backdrop-blur-lg border-b border-neutral-700/80  md:bg-background/80 dark:bg-slate-500 mb-10'>
       <nav className='container flex items-center justify-between w-[92%] px-10 lg:justify-center'>
@@ -54,7 +67,12 @@ const Header = () => {
               key={item.id}
             >
               {' '}
-              <a href={item.url}>{item.title}</a>
+              <a
+                href={item.href}
+                onClick={e => handleSmoothScroll(e, item.href)}
+              >
+                {item.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -79,13 +97,7 @@ const Header = () => {
                     hanldeChangeTheme(item);
                   }}
                 >
-                 
-                  <img
-                    src={item.icon}
-                    alt={`${item.title} Icon`}
-                    width={15}
-                    
-                  />
+                  <img src={item.icon} alt={`${item.title} Icon`} width={15} />
                   <span className='text-md'>{item.title}</span>
                 </div>
               ))}
@@ -111,7 +123,12 @@ const Header = () => {
                 key={item.id}
               >
                 {' '}
-                <a href={item.url}>{item.title}</a>
+                <a
+                  href={item.href}
+                  onClick={e => handleSmoothScroll(e, item.href)}
+                >
+                  {item.title}
+                </a>
               </li>
             ))}
           </ul>

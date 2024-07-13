@@ -8,4 +8,6 @@ export const TAGS = {
   SpinKit : 'Tobias Ahlin SpinKit',
   MUI: 'Material UI',
   Axios: 'Axios',
+  Zod: 'Zod',
+  Sequelize: 'Sequelize',
 };

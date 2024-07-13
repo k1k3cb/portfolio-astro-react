@@ -4,14 +4,10 @@ import Card from './Card';
 
 const Projects = () => {
   return (
-    <section className='mb-10'>
+    <section className='mb-10' id='proyectos'>
       <h2 className='text-principal font-bold text-3xl my-8 mb-8 text-left underline '>
         Proyectos
       </h2>
-
-      {/* <p>Filtros</p>
-
-      <Button>Hello World</Button> */}
 
       <div className='grid grid-cols-1  lg:grid-cols-2 2xl:grid-cols-3  gap-4  place-items-center '>
         {PROJECTS.map((project: Project) => (
